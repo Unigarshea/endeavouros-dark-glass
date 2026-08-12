@@ -1,19 +1,19 @@
-# Pacman packages (edit before installing)
+# Pacman packages (edited to avoid missing packages on some repos)
+# Removed: plasma-wayland-session, kvantum-manager, kwin-effects (may be provided under different names)
+# Edit before running installer if you wish to change any of these.
+
 plasma
-plasma-wayland-session
 kde-applications
 sddm
 sddm-kcm
 konsole
 dolphin
 kwin
-kwin-effects
 latte-dock
 qt5-tools
 qt6ct
 qt5ct
 kvantum
-kvantum-manager
 breeze
 breeze-gtk
 papirus-icon-theme

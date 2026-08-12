@@ -1,13 +1,21 @@
 # Optional AUR packages — verify names on AUR before installing
-# (examples for glass/dark aesthetics; uncomment to install via yay/paru)
+# Use an AUR helper like yay or paru to install these, or uncomment the desired ones.
 
-# Kvantum glass themes (examples; confirm names on AUR)
+# Kvantum themes or QSS-based glass themes (names may vary on AUR)
 kvantum-theme-glass
 kvantum-theme-catppuccin
 white-sur-kde
-# zsh extras (if not in community)
+
+# Zsh extras
 zsh-autosuggestions
 zsh-syntax-highlighting
-# extra icon packs / latte themes
+
+# Latte / extra themes (Latte is often in AUR or community under different names)
+latte-dock
 papirus-folders-git
 latte-dock-theme-collection
+
+# Note:
+# - If a package is not found in pacman, search with: pacman -Ss <name>
+# - To search AUR: yay -Ss <name> or paru -Ss <name>
+# - Some packages (e.g., latte-dock) may be provided by third-party repos (chaotic-aur) or AUR under slightly different names (latte-dock-ng, latte-dock-ng-git). Choose the version you prefer.
