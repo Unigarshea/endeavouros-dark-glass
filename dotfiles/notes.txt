@@ -1,0 +1,34 @@
+Notas (Dark Glass)
+------------------
+
+1) Habilitar Blur / Translucency
+- Ve a System Settings → Workspace Behavior → Desktop Effects → busca "Blur" y actívalo.
+- A veces el efecto está desactivado o no instalado; instala los paquetes de efectos si faltan (kwin-effects, kwin-addons).
+
+2) Esquinas redondeadas
+- La mayoría de las versiones modernas de Plasma permiten decorar ventanas con temas que incluyen radius.
+- Si el ajuste en kwinrc no tiene efecto, instala o selecciona un tema de decoración con bordes redondeados (por ejemplo: Breeze Rounded, WhiteSur-kde port, o crea uno con kdecoration2).
+- También puedes ajustar con `kwriteconfig5` o using el editor de temas si el tema soporta el parámetro 'radius'.
+
+3) Kvantum
+- Kvantum permite aplicar QSS-styled themes a aplicaciones Qt. Para un "glass" look instala un tema Kvantum (ej: kvantum-theme-glass) y selecciona Kvantum en System Settings → Application Style → Configure GnQtStyle/Kvantum.
+
+4) Kitty
+- El archivo kitty.conf activa background_opacity para transparencia. Para ver la transparencia debes probar con compositor activo (Wayland/KWin blur). Si la terminal queda muy transparente, ajusta background_opacity (0.0 - 1.0).
+
+5) Zsh y plugins
+- Recomiendo instalar plugins en ~/.local/share:
+  - git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.local/share/zsh-autosuggestions
+  - git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.local/share/zsh-syntax-highlighting
+- Instala fzf: sudo pacman -S fzf
+- El archivo .zshrc intenta cargar los plugins desde ~/.local/share; adapta rutas si usas otra ubicación.
+
+6) Instalación AUR
+- El script pregunta por instalar AUR usando yay/paru si está disponible.
+
+7) Revertir
+- El instalador copia archivos de ~/.config a ~/dotfiles-backup-<timestamp>. Para restaurar manualmente:
+  rsync -av ~/dotfiles-backup-<timestamp>/ $HOME/
+
+8) Personalización adicional
+- Si quieres que incluya wallpaper + layout de Latte con importable .json, o plasmoids empaquetados para import, dime qué elementos quieres (dock, reloj, menu, notificaciones) and I will add them.

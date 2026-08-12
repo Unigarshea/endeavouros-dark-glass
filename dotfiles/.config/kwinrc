@@ -1,0 +1,17 @@
+[Compositing]
+Enabled=true
+ScaleMethod=0
+# Strength of blur; KWin may use different keys depending on version.
+BlurStrength=0.8
+
+[Windows]
+BorderlessMaximizedWindows=true
+ShowWindowTitle=false
+
+[Desktops]
+Number=4
+
+# KDecoration2 radius hint (best-effort). Not all Plasma versions use this key — if ignored,
+# choose a window decoration theme with rounded corners (eg. Breeze Rounded or a custom theme).
+[org.kde.kdecoration2]
+radius=10

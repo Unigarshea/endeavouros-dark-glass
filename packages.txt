@@ -1,0 +1,40 @@
+# Pacman packages (edit before installing)
+plasma
+plasma-wayland-session
+kde-applications
+sddm
+sddm-kcm
+konsole
+dolphin
+kwin
+kwin-effects
+latte-dock
+qt5-tools
+qt6ct
+qt5ct
+kvantum
+kvantum-manager
+breeze
+breeze-gtk
+papirus-icon-theme
+noto-fonts
+ttf-jetbrains-mono
+neovim
+zsh
+git
+unzip
+zip
+p7zip
+android-tools
+libmtp
+usb_modeswitch
+polkit-gnome
+# Utilities
+htop
+neofetch
+firefox
+vlc
+feh
+# Terminal and tooling
+kitty
+fzf

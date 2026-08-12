@@ -1,0 +1,13 @@
+# Optional AUR packages — verify names on AUR before installing
+# (examples for glass/dark aesthetics; uncomment to install via yay/paru)
+
+# Kvantum glass themes (examples; confirm names on AUR)
+kvantum-theme-glass
+kvantum-theme-catppuccin
+white-sur-kde
+# zsh extras (if not in community)
+zsh-autosuggestions
+zsh-syntax-highlighting
+# extra icon packs / latte themes
+papirus-folders-git
+latte-dock-theme-collection
